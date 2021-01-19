@@ -1,20 +1,31 @@
 
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+/**
+ *
+ * @author Uburrato
+ */
+
 import java.io.BufferedReader;
-import java.util.NoSuchElementException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Scanner;
-import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
+import java.util.NoSuchElementException;
+import java.util.Scanner;
 
-class Main {
+public class Main {
 
+  /**
+   * @param args the command line arguments
+   */
   public static void main(String[] args) throws FileNotFoundException, NoSuchElementException, IOException {
-
       Scanner choose = new Scanner(System.in);
         String choice = null;
         int menu = 0;
@@ -185,6 +196,7 @@ class Main {
         return lineas4;
     }
 
+
     //metoto  Array.sort utiliza el algoritmo quicksort y se utilizara en ambos metodos
     public static int[] sort(int arreglo[]) throws FileNotFoundException, UnsupportedEncodingException {
         Arrays.sort(arreglo);
@@ -241,4 +253,6 @@ class Main {
         writer.close();
         return arreglo;
     }
+
+    
 }
