@@ -7,7 +7,11 @@
  *
  * @author Uburrato
  */
-
+/**
+// nota para el proximo trabajo que haga para alguna empresa, como este mismo.
+//debo escribir todas las variables en ingles, verbs and nouns must be differinciated dependening on the action of such elements.
+// no more spanglish because some people don't understand and its onlty good person that is writing but code is hella confusing this way so, no, no more spanish from now on!!!
+ */
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -70,8 +74,6 @@ public class Main {
         break;
 
       case 3:
-        // agarrar numeros del archivo y pasarlos a un array
-        // Bubble sort - QuickSort - Heapsort + timer
         // agarrar numeros del archivo y pasarlos a un array
         // Bubble sort - QuickSort - Heapsort + timer
 
@@ -301,3 +303,5 @@ public class Main {
   }
     
 }
+
+
